@@ -51,8 +51,8 @@ function App() {
         return;
       }
 
-      const tokens = data.data?.tokens;
-      localStorage.setItem("tokens", JSON.stringify(tokens));
+      const newTokens = data.data?.tokens;
+      localStorage.setItem("tokens", JSON.stringify(newTokens));
 
       setPageLoaded(true);
       setShowAuth(false);
