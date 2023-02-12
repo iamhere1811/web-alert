@@ -125,7 +125,7 @@ function Auth() {
 
   const signupDiv = (
     <div className="box signup">
-      <p className={"heading"}>Sing Up</p>
+      <p className={"heading"}>Sign Up</p>
 
       <div className={"elem"}>
         <label>Name</label>
@@ -164,7 +164,7 @@ function Auth() {
       {errorMsg && <p className="error">{errorMsg}</p>}
 
       <button onClick={handleSignup} disabled={submitButtonDisabled}>
-        {submitButtonDisabled ? "Singing up..." : "Signup"}
+        {submitButtonDisabled ? "Signing up..." : "Signup"}
       </button>
 
       <p className="bottom-text">
@@ -209,7 +209,7 @@ function Auth() {
 
       <p className="bottom-text">
         New user ?{" "}
-        <span onClick={() => setSignupActive(true)}>Singup here</span>
+        <span onClick={() => setSignupActive(true)}>Signup here</span>
       </p>
     </div>
   );
